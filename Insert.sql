@@ -1,20 +1,8 @@
 ﻿use DBFilm
 go
---Tai khoan
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 2)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_002', 'nhanvien', 'nv002', 3)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_003', 'nhanvien', 'nv003', 4)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_004', 'nhanvien', 'nv004', 5)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_005', 'nhanvien', 'nv005', 6)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_006', 'nhanvien', 'nv006', 7)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_007', 'nhanvien', 'nv007', 8)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_008', 'nhanvien', 'nv008', 9)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_009', 'nhanvien', 'nv009', 10)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 11)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 12)
-go
 -- Nhan vien
 use DBFilm
+go
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
 values ('Nguyễn Văn Sang', '1995-05-15', '033304256201', '2016-05-20', 'Thôn Hoan Aí - Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', 'Hà Đông - Hà Nội', '0358604259')
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
@@ -37,6 +25,19 @@ insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, 
 values ('Nguyễn Văn Thống', '1993-09-23', '033336256225', '2017-02-08', 'Thôn Tử Đông- Xã Lý Thường Kiệt - Huyện Yên Mỹ - Tỉnh Hưng Yên', 'Long Biên - Hà Nội', '0998604259')
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
 values ('Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', 'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', 'Tây Hồ - Hà Nội', '0999904259')
+go
+--Tai khoan
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 2)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_002', 'nhanvien', 'nv002', 3)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_003', 'nhanvien', 'nv003', 4)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_004', 'nhanvien', 'nv004', 5)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_005', 'nhanvien', 'nv005', 6)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_006', 'nhanvien', 'nv006', 7)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_007', 'nhanvien', 'nv007', 8)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_008', 'nhanvien', 'nv008', 9)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_009', 'nhanvien', 'nv009', 10)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 11)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 12)
 go
 -- db loaiphim
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Phim Hoạt Hình')
