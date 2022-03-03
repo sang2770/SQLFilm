@@ -1,7 +1,6 @@
 ﻿use DBFilm
 go
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 --Tai khoan
 use DBFilm
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 13)
@@ -16,8 +15,6 @@ Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) val
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 22)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 23)
 
-=======
->>>>>>> 45558ca937a92ac67c77698144fb21b565aef0a3
 -- Nhan vien
 use DBFilm
 go
@@ -42,12 +39,7 @@ values (N'Nguyễn Xuân Đức', '1994-11-15', '033315256201', '2018-05-25', N'
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
 values (N'Nguyễn Văn Thống', '1993-09-23', '033336256225', '2017-02-08', N'Thôn Tử Đông- Xã Lý Thường Kiệt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Long Biên - Hà Nội', '0998604259')
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
-<<<<<<< HEAD
 values (N'Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', N'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Tây Hồ - Hà Nội', '0999904259')
-=======
---taoj cho db loaiphim
-=======
-values ('Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', 'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', 'Tây Hồ - Hà Nội', '0999904259')
 go
 --Tai khoan
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 2)
@@ -63,7 +55,6 @@ Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) val
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 12)
 go
 -- db loaiphim
->>>>>>> 45558ca937a92ac67c77698144fb21b565aef0a3
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Phim Hoạt Hình')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Action')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Drama')
