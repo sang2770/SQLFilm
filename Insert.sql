@@ -138,6 +138,7 @@ insert into TB_THEKHACHHANG values( N'Nguyễn Thị Dung', N'030201007084', N'2
 insert into TB_THEKHACHHANG values( N'Nguyễn Danh lực', N'030201007085', N'2001-09-11', N'2021-05-17',N'Đồng')
 insert into TB_THEKHACHHANG values( N'Nguyen Quý Lực', N'030201007086', N'2000-09-26', N'2022-01-16',N'Đồng')
 
+-tao bang phong
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('1','VIP')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('2','VIP')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('3','THUONG')
@@ -145,12 +146,14 @@ insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('4','THUONG')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('5','THUONG')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('6','THUONG')
 
-
+-tao bang loai ghe
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'A','150000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'B','150000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'C','130000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'D','130000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'E','130000')
+
+-tao bang ghe
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('1','1')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('2','1')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('3','1')
@@ -212,7 +215,7 @@ insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('8','6')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('9','6')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('10','6')
 
-
+-tao bang phu ghe trong phong
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('1','1',N'Ghế đã bán')
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('2','1',N'Ghế trống')
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('3','1',N'Ghế đang chọn')
