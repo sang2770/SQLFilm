@@ -1,6 +1,7 @@
 ﻿use DBFilm
 go
 <<<<<<< HEAD
+<<<<<<< HEAD
 --Tai khoan
 use DBFilm
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 13)
@@ -15,8 +16,11 @@ Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) val
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 22)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 23)
 
+=======
+>>>>>>> 45558ca937a92ac67c77698144fb21b565aef0a3
 -- Nhan vien
 use DBFilm
+go
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
 values (N'Nguyễn Văn Sang', '1995-05-15', '033304256201', '2016-05-20', N'Thôn Hoan Aí - Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Hà Đông - Hà Nội', '0358604259')
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
@@ -38,9 +42,28 @@ values (N'Nguyễn Xuân Đức', '1994-11-15', '033315256201', '2018-05-25', N'
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
 values (N'Nguyễn Văn Thống', '1993-09-23', '033336256225', '2017-02-08', N'Thôn Tử Đông- Xã Lý Thường Kiệt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Long Biên - Hà Nội', '0998604259')
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
+<<<<<<< HEAD
 values (N'Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', N'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Tây Hồ - Hà Nội', '0999904259')
 =======
 --taoj cho db loaiphim
+=======
+values ('Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', 'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', 'Tây Hồ - Hà Nội', '0999904259')
+go
+--Tai khoan
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 2)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_002', 'nhanvien', 'nv002', 3)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_003', 'nhanvien', 'nv003', 4)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_004', 'nhanvien', 'nv004', 5)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_005', 'nhanvien', 'nv005', 6)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_006', 'nhanvien', 'nv006', 7)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_007', 'nhanvien', 'nv007', 8)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_008', 'nhanvien', 'nv008', 9)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_009', 'nhanvien', 'nv009', 10)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 11)
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 12)
+go
+-- db loaiphim
+>>>>>>> 45558ca937a92ac67c77698144fb21b565aef0a3
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Phim Hoạt Hình')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Action')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Drama')
@@ -49,7 +72,7 @@ insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'magic')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'horror')
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'romantic')
 go
--- tạo cho db phim
+-- db phim
 insert into TB_PHIM(QUOCGIA,HINHANH,MOTAPHIM,THOILUONG,TENPHIM) values(N'Nhật Bản',N'Doremon.jpg',N'Doraemon: Nobita và Đảo giấu vàng, Doraemon: Đảo kho báu của Nobita 2018 Phim Doraemon: Nobita và Đảo giấu vàng “Mình sẽ tìm ra Đảo kho báu!”… Quyết tâm thực hiện kế hoạch sau khi hùng hồn tuyên bố với nhóm bạn Jaian, Suneo và Shizuka nhờ có kho báu "Bản đồ kho báu" của Doraemon, Nobita đã tìm được một hòn đảo mới bất ngờ xuất hiện giữa Thái Bình Dương ... Nobita và các bạn bắt đầu cuộc phiêu lưu của mình.',N'120',N'Nobita Và Đảo Giấu Vàng')
 insert into TB_PHIM(QUOCGIA,HINHANH,MOTAPHIM,THOILUONG,TENPHIM) values(N'Mỹ',N'Endgame.jpg',N'Sau những sự kiện tàn khốc của Avengers: Infinity War (2018), vũ trụ đang dần tàn lụi. Với sự giúp đỡ của các đồng minh còn lại, các Avengers tập hợp một lần nữa để đảo ngược hành động của Thanos và khôi phục lại sự cân bằng cho vũ trụ.',N'120',N'Avengers: Hồi kết')
 insert into TB_PHIM(QUOCGIA,HINHANH,MOTAPHIM,THOILUONG,TENPHIM) values(N'Mỹ',N'shawahank.jpg',N'Nhà Tù Shawshank kể về Andy Dufresne là một nhân viên ngân hàng trẻ và thành công mà cuộc sống thay đổi mạnh khi ông bị kết tội và bị kết án tù chung thân vì tội giết vợ và người yêu của mình.',N'120',N'Nhà tù Shawshank')
@@ -124,5 +147,3 @@ insert into TB_THEKHACHHANG values( N'Nguyễn Thị Dung', N'030201007084', N'2
 insert into TB_THEKHACHHANG values( N'Nguyễn Danh lực', N'030201007085', N'2001-09-11', N'2021-05-17',N'Đồng')
 insert into TB_THEKHACHHANG values( N'Nguyen Quý Lực', N'030201007086', N'2000-09-26', N'2022-01-16',N'Đồng')
 
-
->>>>>>> 1238a24217a947100fb084cd2b4de9a88322c556
