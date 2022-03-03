@@ -137,4 +137,4 @@ insert into TB_THEKHACHHANG values( N'Nguyễn Thế Cường ', N'030201007083'
 insert into TB_THEKHACHHANG values( N'Nguyễn Thị Dung', N'030201007084', N'2002-09-18', N'2021-02-13',N'Đồng')
 insert into TB_THEKHACHHANG values( N'Nguyễn Danh lực', N'030201007085', N'2001-09-11', N'2021-05-17',N'Đồng')
 insert into TB_THEKHACHHANG values( N'Nguyen Quý Lực', N'030201007086', N'2000-09-26', N'2022-01-16',N'Đồng')
-
+Nhi
