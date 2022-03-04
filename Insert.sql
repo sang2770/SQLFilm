@@ -1,21 +1,4 @@
-﻿use DBFilm
-go
-
---Tai khoan
-use DBFilm
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 13)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_002', 'nhanvien', 'nv002', 14)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_003', 'nhanvien', 'nv003', 15)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_004', 'nhanvien', 'nv004', 16)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_005', 'nhanvien', 'nv005', 17)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_006', 'nhanvien', 'nv006', 18)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_007', 'nhanvien', 'nv007', 19)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_008', 'nhanvien', 'nv008', 20)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_009', 'nhanvien', 'nv009', 21)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 22)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 23)
-
--- Nhan vien
+﻿-- Nhan vien
 use DBFilm
 go
 insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, DIACHI, SDT) 
@@ -52,7 +35,6 @@ Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) val
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_008', 'nhanvien', 'nv008', 9)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_009', 'nhanvien', 'nv009', 10)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'nhanvien', 'nv010', 11)
-Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_010', 'admin', 'nv010', 12)
 go
 -- db loaiphim
 insert into TB_LOAIPHIM(TENLOAIPHIM) values(N'Phim Hoạt Hình')
@@ -138,7 +120,7 @@ insert into TB_THEKHACHHANG values( N'Nguyễn Thị Dung', N'030201007084', N'2
 insert into TB_THEKHACHHANG values( N'Nguyễn Danh lực', N'030201007085', N'2001-09-11', N'2021-05-17',N'Đồng')
 insert into TB_THEKHACHHANG values( N'Nguyen Quý Lực', N'030201007086', N'2000-09-26', N'2022-01-16',N'Đồng')
 
--tao bang phong
+--tao bang phong
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('1','VIP')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('2','VIP')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('3','THUONG')
@@ -146,14 +128,16 @@ insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('4','THUONG')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('5','THUONG')
 insert into TB_PHONG(SOPHONG, LOAIPHONG) VALUES('6','THUONG')
 
--tao bang loai ghe
+--tao bang loai ghe
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'A','150000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'B','150000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'C','130000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'D','130000')
 insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'E','130000')
+insert into TB_LOAIGHE(TENLOAIGHE, GIAGHE) VALUES(N'F','130000')
 
--tao bang ghe
+
+--tao bang ghe
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('1','1')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('2','1')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('3','1')
@@ -215,7 +199,7 @@ insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('8','6')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('9','6')
 insert into TB_GHE(SOGHE,MALOAIGHE) VALUES('10','6')
 
--tao bang phu ghe trong phong
+--tao bang phu ghe trong phong
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('1','1',N'Ghế đã bán')
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('2','1',N'Ghế trống')
 insert into TB_GHE_TRONG_PHONG(MAGHE,MAPHONG,TRANGTHAI) values('3','1',N'Ghế đang chọn')
