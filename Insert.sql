@@ -25,6 +25,7 @@ insert into dbo.TB_NHANVIEN (TENNHANVIEN, NGAYSINH, CMTND, NGAYVAOLAM, QUEQUAN, 
 values (N'Nguyễn Xuân Phúc', '1990-10-25', '011146256225', '2010-02-10', N'Thôn Lãng Cầu- Xã Tân Việt - Huyện Yên Mỹ - Tỉnh Hưng Yên', N'Tây Hồ - Hà Nội', '0999904259')
 go
 --Tai khoan
+Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('Admin', 'Admin', 'Admin', 1)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_001', 'nhanvien', 'nv001', 2)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_002', 'nhanvien', 'nv002', 3)
 Insert into dbo.TB_TAIKHOAN (TENDANGNHAP, LOAITAIKHOAN, MATKHAU, MANHANVIEN) values('NV_003', 'nhanvien', 'nv003', 4)
