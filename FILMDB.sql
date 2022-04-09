@@ -168,3 +168,5 @@ create table TB_VEXEMPHIM
 	ON UPDATE CASCADE,
 );
 GO
+ALter table TB_VEXEMPHIM
+add NgayLap date not null
