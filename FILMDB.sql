@@ -134,6 +134,12 @@ create table TB_LICHCHIEU
 	ON DELETE CASCADE
 	ON UPDATE CASCADE,
 );
+go
+alter table TB_LICHCHIEU
+alter column NGAYCHIEU datetime not null
+go
+alter table TB_LICHCHIEU
+alter column NGAYKETTHUC datetime not null
 GO
 -- KHACHHANG 
 create table TB_THEKHACHHANG
